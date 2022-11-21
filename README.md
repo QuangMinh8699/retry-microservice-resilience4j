@@ -67,7 +67,7 @@ public class ServiceAController {
 		  "Retry " + count++ + " times at " + new Date()
 	  );  
 	  return restTemplate.getForObject(  
-				url,  
+		    url,  
 	            String.class  
 	  );  
 	}
