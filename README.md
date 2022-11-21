@@ -28,7 +28,7 @@ Retry là cách đơn giản và dễ tiếp cận nhất để xử lý các tr
 - Mỗi lần retry phải đợi trong bao nhiêu giây
 ```
 Cấu hình Retry trong file application.yml:
-```yml
+```
 resilience4j:  
 	retry:  
 		instances:  
