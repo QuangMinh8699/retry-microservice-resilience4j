@@ -33,13 +33,13 @@ resilience4j:
 	retry:  
 		instances:  
 			#serviceA: Tên của method mà chúng ta cần retry
-	        serviceA:  
-		        #Max-attempts: số lần retry tối đa
-		        #Nếu retry quá số lần tối đa thì sẽ bắn ra exception
-	            max-attempts: 5  
+			serviceA:  
+				#Max-attempts: số lần retry tối đa
+				#Nếu retry quá số lần tối đa thì sẽ bắn ra exception
+				max-attempts: 5  
 				#Wait-duration: số lần mỗi retry phải đợi
 				#Khi hết thời gian, sẽ chuyển sang retry mới
-		        wait-duration: 5s
+				wait-duration: 5s
 ```
 
 Controller của serviceA:
