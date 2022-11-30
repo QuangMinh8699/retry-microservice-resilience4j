@@ -91,6 +91,8 @@ public class ServiceBController {
   
 }
 ```
+<hr>
+
 #### Trường hợp thứ nhất:
 #### Khi chúng ta chạy serviceA mà chưa chạy serviceB
 console sẽ hiện ra như sau:
@@ -106,6 +108,7 @@ kèm với đó, website sẽ trả về:
 ```
 This is a fallback method for Service A
 ```
+<hr>
 
 #### Trường hợp thứ hai:
 #### Khi chúng ta chạy serviceB rồi mới chạy serviceA
