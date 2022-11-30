@@ -20,7 +20,6 @@
 </dependency>
 ```
 
-### Cách 1: Sử dụng retry
 Retry là cách đơn giản và dễ tiếp cận nhất để xử lý các trường hợp service không nhận được phản hồi sau khi gửi đi một message
  Chúng ta cần lưu ý đến 2 điều chính trong retry:
 ```
